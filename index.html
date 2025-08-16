@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI/UX Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <a href="#home" class="logo">Dhamma</a>
+        <div class="nav-links" id="navLinks">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="close-menu-btn" id="closeMenuBtn">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="mobile-menu-links">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text" data-aos="fade-up" data-aos-duration="800">
+            <h1 class="hero-title">
+              <span>Hi, I'm</span>
+              <span class="gradient-text">Dhammanand Sonsale</span>
+            </h1>
+            <h2 class="hero-subtitle">UI/UX Designer & MERN Stack Developer</h2>
+            <p class="hero-description">
+              I create beautiful, functional, and user-centered digital
+              experiences that help businesses achieve their goals.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                View Projects <i class="fas fa-arrow-right"></i>
+              </a>
+              <a
+                href="assets/resume/Dhammanand_Sonsale_Resume.pdf"
+                class="btn btn-outline"
+                >See My Resume</a
+              >
+            </div>
+          </div>
+          <div
+            class="hero-image"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div class="image-container">
+              <img
+                src="assets/images/mehh2.jpg"
+                alt="Your Name - UI/UX Designer"
+              />
+              <div class="blob blob-1"></div>
+              <div class="blob blob-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">About Me</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-content">
+          <div
+            class="about-image"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
+            <img src="assets/images/mehh2.jpg" alt="About Me" />
+          </div>
+          <div
+            class="about-text"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <h3 class="about-subtitle">
+              Aspiring UI/UX Designer & MERN Stack Developer
+            </h3>
+            <p>
+              I’m a passionate and creative UI/UX designer with a strong
+              foundation in web development using the MERN stack (MongoDB,
+              Express.js, React.js, Node.js). I specialize in crafting
+              user-centered designs and building responsive, functional web
+              applications.
+            </p>
+            <p>
+              With hands-on experience in tools like Figma, Adobe XD, and
+              HTML/CSS/JavaScript, I blend design thinking with coding logic to
+              create seamless digital experiences. My goal is to design
+              interfaces that are not just visually appealing, but also easy to
+              use and impactful for real-world users.
+            </p>
+            <div class="about-details">
+              <div class="detail-item">
+                <h4>Education</h4>
+                <p class="educate">Bachelor’s Degree in CSE — MIT Aurangabad</p>
+              </div>
+              <div class="detail-item">
+                <h4>Skills & Projects</h4>
+                <p>
+                  Built real-world projects including portfolio websites, UI
+                  case studies, and full-stack apps using React and Node.js.
+                </p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a
+                href="https://github.com/DhammanandSonsale"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/dhammanand-sonsale/"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&to=dhammanandsonsale24@gmail.com"
+                target="_blank"
+                class="social-link"
+              >
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">My Projects</h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            Explore my recent design projects. Each project represents a unique
+            challenge and solution.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="project-image">
+              <img
+                src="assets/projectImg/coffee.png"
+                alt="Brew & Sip Coffee App UI"
+              />
+              <div class="project-overlay">
+                <a
+                  href="https://www.behance.net/gallery/232615127/Brew-Sip"
+                  class="btn btn-primary"
+                  target="_blank"
+                >
+                  View Project <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Brew & Sip – Coffee Ordering App</h3>
+              <p class="project-description">
+                A cozy yet modern mobile coffee ordering app designed in Figma,
+                focusing on simplicity, personalization, and a smooth user
+                experience.
+              </p>
+              <div class="project-tags">
+                <span class="tag">UI/UX</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Mobile App</span>
+                <span class="tag">Coffee App</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="project-image">
+              <img src="assets/projectImg/RentEasy.png" alt="zerodha logo" />
+              <div class="project-overlay">
+                <a
+                  href="https://www.behance.net/gallery/232645551/RentEasy"
+                  class="btn btn-primary"
+                  target="_blank"
+                >
+                  View Project <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">RentEasy</h3>
+              <p class="project-description">
+                A student-focused rental platform that simplifies finding and
+                booking trusted homes, PGs, and flats near your college. Users
+                can explore listings, save favorites, and directly chat with
+                owners, making house hunting fast and hassle-free.
+              </p>
+              <div class="project-tags">
+                <span class="tag">UI/UX</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Mobile App</span>
+                <span class="tag">RentEasy</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+            <div class="project-image">
+              <img src="assets/projectImg/HomelyLogo.png" alt="Apli Website" />
+              <div class="project-overlay">
+                <a
+                  href="https://www.behance.net/gallery/232650657/Homely"
+                  class="btn btn-primary"
+                  target="_blank"
+                >
+                  View Project <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3 class="project-title">Homely</h3>
+              <p class="project-description">
+                A clean, modern, and responsive website for Homely, designed to
+                showcase stylish home décor ideas, products, and interior
+                inspiration, making it easy for users to explore and transform
+                their living spaces.
+              </p>
+              <div class="project-tags">
+                <span class="tag">UI/UX</span>
+                <span class="tag">Figma</span>
+                <span class="tag">Web App</span>
+                <span class="tag">Homely</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header">
+          <h2 class="section-title">My Skills</h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            I've developed a diverse set of skills to deliver comprehensive
+            design solutions.
+          </p>
+        </div>
+
+        <!-- Skills Grid -->
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fab fa-figma"></i>
+            </div>
+            <h3 class="skill-name">Figma</h3>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-pencil-ruler"></i>
+            </div>
+            <h3 class="skill-name">Wireframing</h3>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-vector-square"></i>
+            </div>
+            <h3 class="skill-name">Prototyping</h3>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-palette"></i>
+            </div>
+            <h3 class="skill-name">Visual Design</h3>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-user"></i>
+            </div>
+            <h3 class="skill-name">User Research</h3>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-network-wired"></i>
+            </div>
+            <h3 class="skill-name">Information Architecture</h3>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-hand-pointer"></i>
+            </div>
+            <h3 class="skill-name">Interaction Design</h3>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3 class="skill-name">Usability Testing</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- My Certificates -->
+    <section id="projects" class="certificate-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">My Certificates</h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            Here are some of the certifications I’ve earned, showcasing my
+            learning and skill development across UI/UX and full-stack
+            development.
+          </p>
+        </div>
+
+        <div class="certificate-grid">
+          <!-- Certificate 1: Accenture UX -->
+          <div class="certificate-card">
+            <div class="certificate-image">
+              <img
+                src="assets/certificates/ACCENTURE.jpg"
+                alt="Accenture UX Certificate"
+              />
+              <div class="certificate-overlay">
+                <a
+                  href="assets/certificates/ACCENTURE.jpg"
+                  class="btn btn-primary"
+                  target="_blank"
+                >
+                  View Certificate <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <h3 class="certificate-title">Accenture UX Design</h3>
+              <p class="certificate-description">
+                Completed a UX course from Accenture via FutureLearn, covering
+                the fundamentals and importance of user experience in digital
+                products.
+              </p>
+            </div>
+          </div>
+
+          <!-- Certificate 2: Apna College - Full Stack Web Development -->
+          <div class="certificate-card">
+            <div class="certificate-image">
+              <img
+                src="assets/certificates/FULL STACK.jpg"
+                alt="Full Stack Certificate"
+              />
+              <div class="certificate-overlay">
+                <a
+                  href="assets/certificates/FULL STACK.jpg"
+                  class="btn btn-primary"
+                  target="_blank"
+                >
+                  View Certificate <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <h3 class="certificate-title">Full Stack Web Development</h3>
+              <p class="certificate-description">
+                Completed the Delta program from Apna College, gaining hands-on
+                experience with HTML, CSS, JavaScript, React, and Node.js.
+              </p>
+            </div>
+          </div>
+
+          <!-- Certificate 4: Figma Simpli learn -->
+          <div class="certificate-card">
+            <div class="certificate-image">
+              <img
+                src="assets/certificates/figma.png"
+                alt="Figma Certificate"
+              />
+              <div class="certificate-overlay">
+                <a
+                  href="assets/certificates/Figma_Simplilearn.jpg"
+                  class="btn btn-primary"
+                  target="_blank"
+                >
+                  View Certificate <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <h3 class="certificate-title">Figma UI/UX Design</h3>
+              <p class="certificate-description">
+                Completed the Figma UI/UX course from Simplilearn, learning
+                design principles, prototyping, and collaborative workflow.
+              </p>
+            </div>
+          </div>
+
+          <!-- Certificate 4: TCS iON Career Edge -->
+          <div class="certificate-card">
+            <div class="certificate-image">
+              <img
+                src="assets/certificates/TCS.jpg"
+                alt="TCS Career Edge Certificate"
+              />
+              <div class="certificate-overlay">
+                <a
+                  href="assets/certificates/TCS.jpg"
+                  class="btn btn-primary"
+                  target="_blank"
+                >
+                  View Certificate <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <div class="certificate-info">
+              <h3 class="certificate-title">TCS iON Career Edge</h3>
+              <p class="certificate-description">
+                Successfully completed the TCS Career Edge program, which covers
+                essential soft skills, resume writing, business etiquette, and
+                foundational IT knowledge.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="title-underline"></div>
+          <p class="section-description">
+            Have a project in mind or want to discuss a potential collaboration?
+            I'd love to hear from you!
+          </p>
+        </div>
+
+        <div class="contact-content">
+          <div
+            class="contact-info"
+            data-aos="fade-right"
+            data-aos-duration="800"
+          >
+            <h3 class="contact-subtitle">Contact Information</h3>
+            <div class="info-items">
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info-text">
+                  <h4>Email</h4>
+                  <p>dhammanandsonsale24@gmail.com</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="fab fa-github"></i>
+                </div>
+                <div class="info-text">
+                  <h4>GitHub</h4>
+                  <p>DhammanandSonsale</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="connect-section">
+              <h3 class="contact-subtitle">Let's Connect</h3>
+              <p>
+                Follow me on social media to see my latest work and updates.
+              </p>
+              <div class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/dhammanand-sonsale/"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a
+                  href="https://github.com/DhammanandSonsale"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-github"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/dhammya_11/"
+                  target="_blank"
+                  class="social-link"
+                >
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="contact-form-container"
+            data-aos="fade-left"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div class="form-card">
+              <h3 class="contact-subtitle">Send Me a Message</h3>
+              <form
+                action="https://formsubmit.co/dhammanandsonsale24@gmail.com"
+                method="POST"
+                class="contact-form"
+              >
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="name"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="subject">Subject</label>
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    placeholder="Your message"
+                    required
+                  ></textarea>
+                </div>
+
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://127.0.0.1:5500/"
+                />
+
+                <button type="submit" class="btn btn-primary btn-full">
+                  Send Message <i class="fas fa-paper-plane"></i>
+                </button>
+              </form>
+
+              <div id="formSuccess" class="form-success">
+                <i class="fas fa-check-circle"></i>
+                <span
+                  >Thank you for your message! I'll get back to you soon.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <a href="#home" class="logo">Dhamma</a>
+          </div>
+          <div class="footer-links">
+            <a href="#home" class="footer-link">Home</a>
+            <a href="#about" class="footer-link">About</a>
+            <a href="#projects" class="footer-link">Projects</a>
+            <a href="#skills" class="footer-link">Skills</a>
+            <a href="#contact" class="footer-link">Contact</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © <span id="currentYear"></span> Dhammanand Sonsale. All rights
+            reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
